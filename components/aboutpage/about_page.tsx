@@ -9,7 +9,7 @@ import Agenda from './agenda';
 import Exec1 from './about_exec';
 import Exec2 from './about_exec2';
 import Cen from './about_cen';
-import { Dir1, Dir2, Dir3, Dir4, Dir5, Dir6 } from './about_dir';
+import { Dir1, Dir2, Dir3, Dir4, Dir5, Dir6, Dir7, Dir8, Dir9, Dir10, Dir11, Dir12 } from './about_dir';
 import { Nav } from '../nav/nav';
 
 function About() {
@@ -66,6 +66,24 @@ function About() {
         </div>
         <div id="dir6" className="snap-start min-h-screen">
           <Dir6 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir7 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir8 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir9 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir10 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir11 />
+        </div>
+        <div id="dir6" className="snap-start min-h-screen">
+          <Dir12 />
         </div>
       </div>
     </>
