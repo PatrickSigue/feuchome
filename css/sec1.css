@@ -1,0 +1,302 @@
+.row-1 {
+  padding-top: 90px !important;
+}
+
+.row-1 h1 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.row-1 h1 span,
+h1 strong {
+  display: inline;
+}
+
+.row-1 p {
+  color: #535353;
+  margin: 10px 0;
+}
+
+.column-logo {
+  flex: 1;
+  padding-right: 0 !important;
+  padding-left: 5vw;
+}
+
+.column-welcome {
+  flex: 9;
+  padding-left: 0 !important;
+  width: fit-content;
+  text-align: left;
+}
+
+.column-welcome h6 {
+  color: #8f8e8e;
+  margin: 0;
+}
+
+.column-welcome h1 {
+  color: #3a3838;
+  margin: 0;
+}
+
+.column-welcome p {
+  color: #535353;
+}
+
+.connect-button {
+  margin-top: 1vh;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 25px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s, filter 0.3s;
+  border: 1px solid transparent;
+  width: fit-content;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #d0ad22;
+  height: 3rem;
+  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
+  padding: 0 1vw 0;
+}
+
+.connect-button:hover {
+  background-color: #ffd635;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 2vw !important;
+  color: #fff !important;
+  background-color: #d0ad22;
+  border-radius: 25px;
+  border-color: none;
+  width: 70%;
+  position: relative;
+  text-align: left;
+  font-family: DMSans;
+}
+
+.modal-content h3 {
+  font-family: Poppins;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 500;
+  transition: font-weight 0.5s;
+}
+
+.close-button:hover{
+  font-weight: 900;
+}
+
+.modal-content h3 {
+  line-height: 1.1;
+  margin-bottom: 2vh;
+}
+
+.modal-content h6 {
+  margin-bottom: 1vw;
+  color: #fff;
+  font-weight: bold;
+}
+
+.row-fb{
+  margin-bottom: 1vw;
+}
+
+.quick-icons {
+  height: 2.5rem;
+  filter: invert(95%) sepia(5%) saturate(21%) hue-rotate(256deg) brightness(106%) contrast(105%);
+  transition: filter .5s;
+  margin-right: .5vw;
+}
+
+.insta {
+  margin-left: 2vw;
+}
+
+.mail-icon {
+  height: 2.5rem;
+  filter: invert(95%) sepia(5%) saturate(21%) hue-rotate(256deg) brightness(106%) contrast(105%);
+}
+
+.quick-icons:hover {
+  filter: invert(17%) sepia(0%) saturate(4655%) hue-rotate(85deg) brightness(99%) contrast(82%);
+}
+
+.click-link {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.5s;
+}
+
+.click-link:hover {
+  color: #3a3838;
+}
+
+.row-email-text {
+  margin-top: 0;
+}
+
+.column-main-mail {
+  flex: 4;
+  padding-left: 0 !important;
+  max-width: none;
+
+}
+
+.column-ext-mail {
+  flex: 3;
+  padding-left: 0 !important;
+  padding-right: 0;
+  width: 100%;
+}
+
+.column-spon-mail {
+  flex: 1.5;
+  padding-left: 0 !important;
+  width: 100%;
+}
+
+.email-row {
+  display: flex;
+  align-items: center;
+  gap: .5vw;
+}
+
+.row-2 {
+  margin-top: 3vh;
+  padding: 0px;
+}
+
+.row-pad {
+  margin-top: 5vh;
+  height: 3vh;
+  background-color: #d0ad22;
+}
+
+.column-carousel {
+  flex: 6;
+  padding: 0 !important;
+}
+
+.column-griev {
+  flex: 4;
+  color: #fff;
+  background-color: #d0ad22;
+  height: 40vh !important;
+  padding-top: 3vh;
+  padding-left: 3vw;
+  min-height: fit-content;
+}
+
+.embla {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  height: 40vh;
+  min-height: fit-content;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+  padding-left: 3vw;
+}
+
+.embla__slide h1,
+.column-griev h1 {
+  margin-bottom: 1vh;
+  line-height: .9;
+  font-weight: 500;
+}
+
+.embla__slide h5,
+.column-griev h5 {
+  font-family: DMSans;
+  margin-bottom: 1vh;
+}
+
+.embla__slide a,
+.column-griev a {
+  text-decoration: underline;
+}
+
+.slide-1 {
+  background: url('/rando/1.jpg') center center / cover no-repeat;
+}
+
+.slide-2 {
+  background: url('/rando/2.jpg') center center / cover no-repeat;
+}
+
+.slide-3 {
+  background: url('/rando/3.jpg') bottom center / cover no-repeat;
+}
+
+.embla__dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.embla__dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.embla__dot.is-selected {
+  background: #d0ad22;
+}
+
+.slide-texts {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}

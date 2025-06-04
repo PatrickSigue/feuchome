@@ -1,0 +1,102 @@
+header {
+      background-color: #545454;
+      color: white;
+      padding-left: 30px; /* add this */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;   /* <-- make it fixed */
+      top: 0;           /* <-- stick it to the top */
+      left: 0;
+      width: 100%;      /* <-- full width */
+      z-index: 999;     /* <-- make sure it’s on top */
+      transition: background-color 0.5s;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-right: 30px;
+
+    }
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 45px;
+        margin-left: 30px;
+        font-weight: 600;
+        position: relative;
+        cursor: pointer;
+        }
+
+        /* Active clicked nav color */
+        .about-feucso.active > a {
+        color: #d0ad22;
+        }
+
+
+    .branding {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .branding strong {
+      font-size: 40px;
+      font-weight: 530;
+      margin-left: 30px;
+    }
+    .branding span {
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
+    /* Dropdown */
+    .about-feucso {
+      position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #d0ad22; /* gold */
+        width: 200px;
+        top: 100%; 
+        margin-top: 28px;
+        left: 50%;            /* <-- change */
+        transform: translateX(-50%); /* <-- center the dropdown */
+        z-index: 1;
+        flex-direction: column;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+    .dropdown-content a {
+      color: white;
+      font-size: small;
+      text-align: center;
+      margin: 10px;
+      padding: 5px 5px;
+      text-decoration: none;
+      display: block;
+      font-weight: 600;
+      user-select: none;
+    }
+    .dropdown-content a:hover {
+      background-color: #b9972e;
+    }
+    /* Show dropdown when active */
+    .about-feucso.active .dropdown-content {
+      display: flex;
+    }
+    header.gold-header {
+      background-color: #d0ad22;
+      color: white;
+    }
+    header.gold-header .nav-links a {
+      color: white;
+    }
+    header.gold-header .dropdown-content {
+      background-color: #545454;
+    }
+    header.gold-header .dropdown-content a:hover {
+      background-color: #333333; /* darker gray on hover */
+    }

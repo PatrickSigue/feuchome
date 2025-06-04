@@ -1,0 +1,72 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DM_Sans/DMSans.ttf') format('truetype');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins'
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+}
+
+.row-3 {
+  height: 100vh !important;
+  background: #d0ad22 !important;
+}
+
+.column {
+  box-sizing: border-box;
+}
+
+.nav {
+  height:40vh;
+  background: #545454;
+}
+
+.nav-pad {
+  height:60vh;
+  background:#d0ad22;
+}

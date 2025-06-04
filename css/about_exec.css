@@ -1,0 +1,35 @@
+.row-exec h6,
+.row-cen h6 {
+    color: #3a3838;
+}
+
+.row-exec h2,
+.row-exec h3,
+.row-exec h4,
+.row-cen h2,
+.row-cen h3,
+.row-cen h4 {
+    margin-top: 10px;
+    color: #d0ad22;
+}
+
+
+.exec-pad {
+    margin-left: -15vh;
+    margin-top: 5vh;
+    background-color: #d0ad22;  
+    height: 2vh;
+}
+
+.cen-pad {
+    margin-left: -15vh;
+    margin-top: 20vh;
+    background-color: #d0ad22;  
+    height: 2vh;
+}
+
+.row-cen {
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+}

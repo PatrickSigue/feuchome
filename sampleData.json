@@ -1,0 +1,198 @@
+{
+  "ExecBoard": [
+    { "Name": "Alex Cruz", "position": "President", "picture": "alex.jpg" },
+    { "Name": "Jamie Santos", "position": "Vice President", "picture": "jamie.jpg" },
+    { "Name": "Sam Delos Reyes", "position": "Secretary", "picture": "sam.jpg" }
+  ],
+  "CentralBoard": [
+    { "Name": "Rina Mendoza", "position": "Secretary-General", "picture": "rina.jpg" },
+    { "Name": "Luis Ramos", "position": "Treasurer", "picture": "luis.jpg" },
+    { "Name": "Dale Vergara", "position": "Auditor", "picture": "dale.jpg" }
+  ],
+  "OfficeDirectorsAssoc": [
+    {
+      "department name": "Communications",
+      "office picture": "comm_office.jpg",
+      "Name of director": "Diane Reyes",
+      "picture": "diane.jpg",
+      "associates": [
+        { "name of assoc": "Karl Tan", "picture": "karl.jpg" },
+        { "name of assoc": "Mira Flores", "picture": "mira.jpg" }
+      ]
+    },
+    {
+      "department name": "External Affairs",
+      "office picture": "ext_affairs.jpg",
+      "Name of director": "Vin Aquino",
+      "picture": "vin.jpg",
+      "associates": [
+        { "name of assoc": "Lei Angeles", "picture": "lei.jpg" }
+      ]
+    }
+  ],
+  "InitiativeCampaign": [
+    {
+      "title": "Mental Health Awareness Week",
+      "date": "2025-05-01",
+      "picture": "mental_health.jpg"
+    },
+    {
+      "title": "Eco-Friendly Campus Drive",
+      "date": "2025-04-15",
+      "picture": "eco_drive.jpg"
+    },
+    {
+      "title": "Student Leader Forum",
+      "date": "2025-03-20",
+      "picture": "forum.jpg"
+    }
+  ],
+  "Institute": [
+    {
+      "instiName": "Institute of Education",
+      "presidentName": "Ariel Dela Cruz",
+      "vpName": "Monica Javier",
+      "secretaryName": "Jonas Yulo",
+      "treasurerName": "Carla Sim",
+      "auditorName": null,
+      "proName": null,
+      "institutePicture": "education_institute.jpg",
+      "departmentPicture": "education_dept.jpg",
+      "fbLink": "https://facebook.com/ieo.feu"
+    },
+    {
+      "instiName": "Institute of Nursing",
+      "presidentName": "Louise Almonte",
+      "vpName": "Rhea Ng",
+      "secretaryName": null,
+      "treasurerName": null,
+      "auditorName": null,
+      "proName": null,
+      "institutePicture": "nursing_institute.jpg",
+      "departmentPicture": "nursing_dept.jpg",
+      "fbLink": "https://facebook.com/nursing.feu"
+    }
+  ],
+  "DownloadableContents": [
+    {
+      "Downloadable Content": "Student Handbook",
+      "category": [
+        {
+          "title": "2025 Student Handbook",
+          "subtitle": "Rules and Guidelines",
+          "picture": "handbook.jpg",
+          "gdriveLink": "https://drive.google.com/file/handbook"
+        }
+      ]
+    },
+    {
+      "Downloadable Content": "Event Forms",
+      "category": [
+        {
+          "title": "Activity Proposal Form",
+          "subtitle": "For event approval",
+          "picture": "form.jpg",
+          "gdriveLink": "https://drive.google.com/file/eventform"
+        },
+        {
+          "title": "Budget Request Form",
+          "subtitle": "For funding requests",
+          "picture": "budget.jpg",
+          "gdriveLink": "https://drive.google.com/file/budget"
+        }
+      ]
+    }
+  ],
+  "AcadOrgs": [
+    {
+      "instituteName": "Institute of Nursing",
+      "category": [
+        { "acadOrgName": "Nursing Society", "link": "https://facebook.com/nursoc" },
+        { "acadOrgName": "Red Cross Youth", "link": "https://facebook.com/rcy" }
+      ]
+    },
+    {
+      "instituteName": "Institute of Education",
+      "category": [
+        { "acadOrgName": "Educators Guild", "link": "https://facebook.com/eduguild" }
+      ]
+    }
+  ],
+  "UniOffice": [
+    {
+      "officeCategory": "Student Affairs",
+      "category": [
+        { "name": "Guidance Office", "link": "https://feu.edu.ph/guidance" },
+        { "name": "Scholarship Office", "link": "https://feu.edu.ph/scholarships" }
+      ]
+    },
+    {
+      "officeCategory": "Finance",
+      "category": [
+        { "name": "Cashier", "link": "https://feu.edu.ph/cashier" }
+      ]
+    }
+  ],
+  "UniversityOrganizations": [
+    {
+      "Category": "Media",
+      "organizations": [
+        { "uniwide name": "FEU Advocate", "link": "https://facebook.com/feuadvocate" },
+        { "uniwide name": "Artlets", "link": "https://facebook.com/artlets" }
+      ]
+    },
+    {
+      "Category": "Performing Arts",
+      "organizations": [
+        { "uniwide name": "FEU Theater Guild", "link": "https://facebook.com/feutg" },
+        { "uniwide name": "FEU Dance Company", "link": "https://facebook.com/feudance" }
+      ]
+    },
+    {
+      "Category": "Civic",
+      "organizations": [
+        { "uniwide name": "Rotaract Club", "link": "https://facebook.com/rotaractfeu" }
+      ]
+    }
+  ],
+  "Statements": [
+    {
+      "Title": "Statement on Academic Freedom",
+      "date": "2025-03-10",
+      "FBLink": "https://facebook.com/feucso/posts/123"
+    },
+    {
+      "Title": "Solidarity with Marawi",
+      "date": "2025-02-28",
+      "FBLink": "https://facebook.com/feucso/posts/124"
+    },
+    {
+      "Title": "Response to Budget Cuts",
+      "date": "2025-01-05",
+      "FBLink": "https://facebook.com/feucso/posts/125"
+    }
+  ],
+  "Events": [
+    {
+      "Title": "FEU Unity Concert",
+      "description": "A night of music and unity.",
+      "picture": "concert.jpg"
+    },
+    {
+      "Title": "Career Fair 2025",
+      "description": "Opportunities from top companies.",
+      "picture": "career_fair.jpg"
+    },
+    {
+      "Title": "Green and Gold Run",
+      "description": "Fun run to celebrate student wellness.",
+      "picture": "run.jpg"
+    },
+    {
+      "Title": "Student Hackathon",
+      "description": "Pitch and prototype your ideas!",
+      "picture": "hackathon.jpg"
+    }
+  ]
+}
+
