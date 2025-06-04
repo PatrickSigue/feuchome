@@ -33,38 +33,38 @@ function About() {
   return (
     <>
       <Nav />
-      <div className="snap-y snap-mandatory overflow-y-auto h-screen scroll-pt-60px">
-        <div id="our-history" className="snap-center max-h-screen">
+      <div className="snap-y snap-proximity overflow-y-auto h-screen scroll-pt-60px">
+        <div id="our-history" className="snap-start min-h-screen">
           <OurHistory />
         </div>
-        <div id="agenda" className="snap-center max-h-screen">
+        <div id="agenda" className="snap-start min-h-screen">
           <Agenda />
         </div>
-        <div id="exec1" className="snap-center max-h-screen">
+        <div id="exec1" className="snap-start min-h-screen">
           <Exec1 />
         </div>
-        <div id="exec2" className="snap-center max-h-screen">
+        <div id="exec2" className="snap-start min-h-screen">
           <Exec2 />
         </div>
-        <div id="cen" className="snap-center max-h-screen pt-[15vh] pl-[15vh]">
+        <div id="cen" className="snap-start min-h-screen pt-[15vh] pl-[15vh]">
           <Cen />
         </div>
-        <div id="dir1" className="snap-center min-h-screen max-h-screen">
+        <div id="dir1" className="snap-start min-h-screen">
           <Dir1 />
         </div>
-        <div id="dir2" className="snap-center min-h-screen max-h-screen">
+        <div id="dir2" className="snap-start min-h-screen">
           <Dir2 />
         </div>
-        <div id="dir3" className="snap-center min-h-screen max-h-screen">
+        <div id="dir3" className="snap-start min-h-screen">
           <Dir3 />
         </div>
-        <div id="dir4" className="snap-center min-h-screen max-h-screen">
+        <div id="dir4" className="snap-start min-h-screen">
           <Dir4 />
         </div>
-        <div id="dir5" className="snap-center min-h-screen max-h-screen">
+        <div id="dir5" className="snap-start min-h-screen">
           <Dir5 />
         </div>
-        <div id="dir6" className="snap-center min-h-screen max-h-screen">
+        <div id="dir6" className="snap-start min-h-screen">
           <Dir6 />
         </div>
       </div>
