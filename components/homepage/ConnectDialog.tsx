@@ -46,7 +46,7 @@ export default function ConnectDialog() {
             <div className="row">
               <a href="https://www.messenger.com/t/166725233458654" target="_blank" rel="noopener noreferrer">
                 <img src="/home/facebook-messenger.svg" className="quick-icons" alt="Mes Icon" />
-              </a> Want to chat us? <a href="https://www.messenger.com/t/166725233458654" className="click-link" target="_blank" rel="noopener noreferrer">Click here</a>
+              </a> Want to chat us? &nbsp;<a href="https://www.messenger.com/t/166725233458654" className="click-link" target="_blank" rel="noopener noreferrer"> Click here</a>
             </div>
             <hr className="my-[2vw]" />
             <div className="row">
