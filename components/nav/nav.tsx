@@ -74,7 +74,7 @@ export function Nav() {
             <Link href="/about#our-history">OUR HISTORY</Link>
             <Link href="/about#agenda">UNSTOPPABLE 4-POINT AGENDA</Link>
             <Link href="/about#exec1">EXECUTIVE BOARD</Link>
-            <Link href="/about#exec2">BOARD OF DIRECTORS</Link>
+            <Link href="/about#dir1">BOARD OF DIRECTORS</Link>
           </div>
         </div>
 

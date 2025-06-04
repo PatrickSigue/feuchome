@@ -23,7 +23,7 @@
 
 .cen-pad {
     margin-left: -15vh;
-    margin-top: 20vh;
+    margin-top: 21vh;
     background-color: #d0ad22;  
     height: 2vh;
 }
@@ -31,5 +31,5 @@
 .row-cen {
     height: fit-content;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start !important;
 }

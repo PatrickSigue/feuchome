@@ -7,7 +7,7 @@ export default function Cen(){
         <>
             <Nav />
             <h6 className='text-[#3a3838]'>YOUR FEUCSO 89</h6>
-            <h2 className='text-[#d0ad22]'>THE CENTRAL BOARD</h2>
+            <h2 className='text-[#d0ad22] !font-bold'>THE CENTRAL BOARD</h2>
             <div className='row row-cen'>
                 <div className='column flex-1'>
                     <img src="/about/cen/1.png" className='aspect-4/5 object-cover object-top h-[30vh] mt-[5vh] rounded-2xl'alt="image" />

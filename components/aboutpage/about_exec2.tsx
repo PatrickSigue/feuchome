@@ -5,7 +5,7 @@ export default function Exec2() {
     return(
         <div className='pt-[15vh] pl-[15vh]'>
             <h6 className='text-[#3a3838]'>YOUR FEUCSO 89</h6>
-            <h2 className='text-[#d0ad22]'>THE EXECUTIVE BOARD</h2>
+            <h2 className='text-[#d0ad22] !font-bold'>THE EXECUTIVE BOARD</h2>
             <div className='row max-h-screen row-exec'>
                 <div className='column flex-1'>
                     <img src="/about/exec/4.png" className='aspect-4/5 object-cover object-top h-[50vh] mt-[5vh] rounded-2xl'alt="image" />
