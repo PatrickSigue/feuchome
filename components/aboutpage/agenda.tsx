@@ -2,7 +2,7 @@ import ImageCard from './ImageCard';
 
 export default function Agenda() {
   return (
-        <section id="agenda-section" className="!flex !flex-col !px-14 !pt-25 !mx-auto !max-w-6xl !w-full">
+        <section id="agenda-section" className="!flex !flex-col !px-14 !pt-25 !mx-auto !max-w-7xl !w-full">
           <div className="!flex !flex-col md:!flex-row !space-y-8 !space-x-40"> 
             <div className="!flex-1 !max-w-md"> 
                 <p className="!text-[#3a3838] !text-base !leading-loose !mb-4 !uppercase !text-justify !pt-5">Our Step</p>
@@ -88,6 +88,7 @@ export default function Agenda() {
               />
             </div>
           </div>
+
         </section>
     );
 }

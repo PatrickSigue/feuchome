@@ -4,6 +4,7 @@ import '../../css/about_exec.css'
 export default function Exec1() {
     return(
         <>
+        <div className='exec-pad !mt-[11vh]'></div>
             <div className='pt-[15vh] pl-[15vh] h-screen'>
                 <h6 className='text-[#3a3838]'>YOUR FEUCSO 89</h6>
                 <h2 className='text-[#d0ad22] !font-bold'>THE EXECUTIVE BOARD</h2>

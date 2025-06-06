@@ -28,7 +28,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
       <img
         src={imageSrc}
         alt={altText}
-        className="absolute inset-0 w-full h-full object-cover object-center grayscale"
+        className="absolute inset-0 w-full h-full object-cover object-center grayscale contrast-50"
       />
 
       <div
@@ -37,13 +37,13 @@ const ImageCard: React.FC<ImageCardProps> = ({
           ${isBorderLeft ? 'flex-row' : 'flex-row-reverse'} 
         `}
       >
-        <div className="w-2/3 flex flex-col justify-center p-7">
-          <h3 className="text-[#d0ad22] text-lg font-bold leading-none mb-1 text-shadow-lg">{cardHeader}</h3>
-          <p className="text-white text-xs leading-snug font-dm-sans text-shadow-lg">{cardBody}</p>
+        <div className="w-2/3 flex flex-col justify-center !p-7">
+          <h3 className="text-[#ffd635] !text-3xl !font-bold leading-none !mb-2 text-shadow-lg text-shadow-black/70">{cardHeader}</h3>
+          <p className="text-white text-xs leading-snug font-dm-sans text-shadow-lg text-shadow-black/70">{cardBody}</p>
         </div>
 
         <div className="w-1/3 flex items-center justify-center p-2">
-          <div className="flex items-center justify-center w-19 h-19 rounded-full bg-[#d0ad22]">
+          <div className="flex items-center justify-center w-19 h-19 rounded-full bg-[#d0ad22] shadow-lg shadow-black/50">
             {iconSvg ? (
               <span className="w-10 h-10 text-white">{iconSvg}</span>
             ) : (
