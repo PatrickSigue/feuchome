@@ -8,7 +8,7 @@ export function Dir1() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE PRESIDENT</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -26,7 +26,7 @@ export function Dir1() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>STUDENTS’ WELFARE<br /> AND GRIEVANCES</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir1/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -64,7 +64,7 @@ export function Dir1() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[11vh]'></div>
+            <div className='exec-pad !mt-[8vh]'></div>
         </>
     );
 }
@@ -125,7 +125,7 @@ export function Dir3() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE VICE PRESIDENT</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/2.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -143,7 +143,7 @@ export function Dir3() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>INTERNAL AND<br /> DISCIPLINARY AFFAIRS</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir3/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -181,7 +181,7 @@ export function Dir3() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[11vh]'></div>
+            <div className='exec-pad !mt-[8vh]'></div>
         </>
     );
 }
@@ -192,7 +192,7 @@ export function Dir4() {
             <div className='row row-exec pt-[15vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>LEGAL AFFAIRS</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir4/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -233,7 +233,7 @@ export function Dir4() {
             <div className='row row-exec pt-[5vh] px-[15vh] flex justify-end'>
                 <h2 className='leading-none text-start !font-bold'>LEGISLATIVE <br />AFFAIRS</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir4/5.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -271,7 +271,7 @@ export function Dir4() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[18vh]'></div>
+            <div className='exec-pad !mt-[12vh]'></div>
         </>
     );
 }
@@ -283,7 +283,7 @@ export function Dir5() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE SECRETARY</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/3.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -301,7 +301,7 @@ export function Dir5() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>EVENTS MANAGEMENT</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir5/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -339,7 +339,7 @@ export function Dir5() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[16vh]'></div>
+            <div className='exec-pad !mt-[13vh]'></div>
         </>
     );
 }
@@ -350,7 +350,7 @@ export function Dir6() {
             <div className='row row-exec pt-[15vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>NARRATIVES AND ARCHIVES</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir6/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -384,7 +384,7 @@ export function Dir6() {
             <div className='row row-exec pt-[5vh] px-[15vh] flex justify-end'>
                 <h2 className='leading-none text-start !font-bold'>SPORTS AND TALENTS</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir6/4.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -415,7 +415,7 @@ export function Dir6() {
                 <div className='column flex-1'>
                 </div>
             </div>
-            <div className='exec-pad !mt-[23vh]'></div>
+            <div className='exec-pad !mt-[17vh]'></div>
         </>
     );
 }
@@ -427,7 +427,7 @@ export function Dir7() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE TREASURER</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/4.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -445,7 +445,7 @@ export function Dir7() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>FINANCE</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir7/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -483,7 +483,7 @@ export function Dir7() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[16vh]'></div>
+            <div className='exec-pad !mt-[13vh]'></div>
         </>
     );
 }
@@ -494,7 +494,7 @@ export function Dir8() {
             <div className='row row-exec pt-[15vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>LOGISTICS AND <br /> PROCUREMENT</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir8/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -528,7 +528,7 @@ export function Dir8() {
             <div className='row row-exec pt-[5vh] px-[15vh] flex justify-end'>
                 <h2 className='leading-none text-start !font-bold'>SPONSORSHIPS <br />AND PARTNERSHIP</h2>
             </div>
-           <div className='row row-exec'>
+           <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir8/4.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -566,7 +566,7 @@ export function Dir8() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[23vh]'></div>
+            <div className='exec-pad !mt-[8vh]'></div>
         </>
     );
 }
@@ -578,7 +578,7 @@ export function Dir9() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE AUDITOR</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/5.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -596,7 +596,7 @@ export function Dir9() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>ADVOCACY AND <br />CAMPAIGNS</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir9/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -634,7 +634,7 @@ export function Dir9() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[16vh]'></div>
+            <div className='exec-pad !mt-[8vh]'></div>
         </>
     );
 }
@@ -645,7 +645,7 @@ export function Dir10() {
             <div className='row row-exec pt-[15vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>AUDIT</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir1/placeholder.jpg" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -686,13 +686,13 @@ export function Dir10() {
             <div className='row row-exec pt-[5vh] px-[15vh] flex justify-end'>
                 <h2 className='leading-none text-start !font-bold'>DATA ANALYTICS</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir10/5.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Director</h4>
-                            <h6>MARGARETTE ANTOINETTE MACATANGAY</h6>
+                            <h6 className='max-w-[11vw] break-words'>MARGARETTE ANTOINETTE MACATANGAY</h6>
                         </div>
                     </div>
                 </div>
@@ -724,7 +724,7 @@ export function Dir10() {
                     </div>
                 </div>
             </div>
-            <div className='exec-pad !mt-[23vh]'></div>
+            <div className='exec-pad !mt-[17vh]'></div>
         </>
     );
 }
@@ -736,7 +736,7 @@ export function Dir11() {
                 <div className='column flex-3'>
                     <h6>MEET YOUR DIRECTORS</h6>
                     <h2 className='leading-none !font-bold'>THE OFFICE OF <br />THE PRESS <br />RELATIONS OFFICER</h2>
-                    <div className='row'>
+                    <div className='row pt-[1vh]'>
                         <img src="/about/exec/6.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
                         <div className='column pl-[1vw]'>
                             <h4>Officer-In-Charge</h4>
@@ -754,7 +754,7 @@ export function Dir11() {
             <div className='row row-exec pt-[5vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>CREATIVES</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[2vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir11/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -785,7 +785,7 @@ export function Dir11() {
                 <div className='column flex-1'>
                 </div>
             </div>
-            <div className='exec-pad !mt-[16vh]'></div>
+            <div className='exec-pad !mt-[8vh]'></div>
         </>
     );
 }
@@ -796,7 +796,7 @@ export function Dir12() {
             <div className='row row-exec pt-[15vh] pl-[15vh]'>
                 <h2 className='leading-none !font-bold'>MARKETING AND CONTENT</h2>
             </div>
-            <div className='row row-exec'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir12/1.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -837,7 +837,7 @@ export function Dir12() {
             <div className='row row-exec pt-[5vh] px-[15vh] flex justify-end'>
                 <h2 className='leading-none text-start !font-bold'>VISUAL AND MEDIA</h2>
             </div>
-            <div className='row row-exec pt-1'>
+            <div className='row row-exec pt-[3vh]'>
                 <div className='column flex-1 pl-[15vh]'>
                     <div className='row'>
                         <img src="/about/dir12/5.png" className='aspect-4/5 object-cover object-top h-[20vh] mt-[2vh] rounded-2xl'alt="image" />
@@ -861,7 +861,7 @@ export function Dir12() {
                 <div className='column flex-1'>
                 </div>
             </div>
-            <div className='exec-pad !mt-[23vh]'></div>
+            <div className='exec-pad !mt-[17vh]'></div>
         </>
     );
 }
